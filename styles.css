@@ -1,0 +1,440 @@
+/* Estilos de la guia CMMI */
+/* colores: verde #1de9b6, azul oscuro #1c2352 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* ---------- botones ---------- */
+.boton {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.boton-verde {
+    background-color: #1de9b6;
+    color: #1c2352;
+}
+
+.boton-azul {
+    background-color: #1c2352;
+    color: white;
+}
+
+/* ---------- hero ---------- */
+.hero {
+    background-image: linear-gradient(rgba(28, 35, 82, 0.9), rgba(28, 35, 82, 0.9)), url(images/banner-bk.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px 0 80px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.link-menu {
+    color: white;
+    text-decoration: none;
+}
+
+.hero h1 {
+    font-size: 52px;
+    line-height: 1.15;
+    margin-bottom: 25px;
+    max-width: 650px;
+}
+
+.intro {
+    max-width: 650px;
+    margin-bottom: 35px;
+    font-size: 16px;
+}
+
+/* ---------- secciones ---------- */
+.seccion {
+    padding: 70px 0;
+}
+
+.gris {
+    background-color: #f0f1f3;
+}
+
+.titulo-centro {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.fila {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tres {
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.caja {
+    width: 33%;
+    text-align: center;
+}
+
+.caja img {
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+.caja h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.caja p {
+    font-size: 14px;
+    color: #444;
+}
+
+/* ---------- bloque verde ---------- */
+.bloque-verde {
+    background-image: linear-gradient(168deg, white 0%, white 25%, #1de9b6 25%, #1de9b6 100%);
+    padding: 90px 0 80px 0;
+}
+
+.parte {
+    margin-bottom: 90px;
+}
+
+.parte .texto {
+    width: 45%;
+}
+
+.parte .imagen {
+    width: 48%;
+    text-align: center;
+}
+
+.parte h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.parte p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/* ---------- precios ---------- */
+.precio {
+    width: 33%;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.precio h4 {
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.numero {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+.numero small {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.precio ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.precio li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.precio .boton {
+    border: 2px solid #1c2352;
+    color: #1c2352;
+    padding: 8px 30px;
+}
+
+.destacado {
+    background-color: #1c2352;
+    color: white;
+    border-radius: 4px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.destacado .boton {
+    background-color: #1de9b6;
+    border-color: #1de9b6;
+    color: #1c2352;
+}
+
+/* ---------- lista de informacion ---------- */
+.item {
+    background-color: white;
+    border-left: 5px solid #1de9b6;
+    padding: 18px 22px;
+    margin-bottom: 15px;
+}
+
+.item h3 {
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+
+.item p {
+    font-size: 14px;
+    color: #444;
+}
+
+/* ---------- logos ---------- */
+.logos {
+    background-color: #eeeff1;
+    padding: 50px 0;
+}
+
+.logos .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logos img {
+    height: 45px;
+}
+
+/* ---------- contacto ---------- */
+.contacto {
+    background-image: linear-gradient(rgba(28, 35, 82, 0.9), rgba(28, 35, 82, 0.9)), url(images/contact-bk.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0;
+}
+
+.contacto .fila {
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.contacto .texto {
+    width: 45%;
+}
+
+.contacto h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contacto p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    width: 50%;
+}
+
+.formulario label {
+    display: block;
+    color: #1de9b6;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #1de9b6;
+    color: white;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.dos-campos {
+    display: flex;
+    gap: 20px;
+}
+
+.dos-campos div {
+    width: 50%;
+}
+
+.enviar {
+    width: 100%;
+    background-color: #1de9b6;
+    color: #1c2352;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* ---------- pie ---------- */
+.pie {
+    background-color: #1c2352;
+    color: white;
+    padding: 30px 0;
+    font-size: 13px;
+}
+
+.fila-pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+    color: #1c2352;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+/* ---------- celular (hasta 480px) ---------- */
+@media (max-width: 480px) {
+
+    .hero {
+        padding: 25px 0 50px 0;
+    }
+
+    .menu {
+        margin-bottom: 35px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .seccion {
+        padding: 45px 0;
+    }
+
+    .titulo-centro {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .fila,
+    .tres,
+    .contacto .fila {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .caja,
+    .precio,
+    .parte .texto,
+    .parte .imagen,
+    .contacto .texto,
+    .formulario {
+        width: 100%;
+    }
+
+    .caja img {
+        width: 140px;
+    }
+
+    .bloque-verde {
+        padding: 50px 0 30px 0;
+    }
+
+    .parte {
+        margin-bottom: 40px;
+        gap: 20px;
+    }
+
+    .invertido {
+        flex-direction: column-reverse;
+    }
+
+    .parte h2 {
+        font-size: 26px;
+    }
+
+    .numero {
+        font-size: 60px;
+    }
+
+    .logos .contenedor {
+        justify-content: center;
+    }
+
+    .logos img {
+        height: 35px;
+    }
+
+    .dos-campos {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .dos-campos div {
+        width: 100%;
+    }
+
+    .contacto {
+        padding: 50px 0;
+    }
+
+    .fila-pie {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
